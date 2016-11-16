@@ -5,3 +5,7 @@ Fix kali linux 2016.2 xfce no sound
 
 open terminal :
 systemctl --user enable pulseaudio && systemctl --user start pulseaudio 
+
+Run 32-bit ELF (Multiarch)
+apt-get install lib32z1 lib32ncurses5
+
